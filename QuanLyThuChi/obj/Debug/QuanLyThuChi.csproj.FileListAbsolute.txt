@@ -8,3 +8,14 @@ C:\Users\Chua co that khong\source\repos\QuanLyThuChi\QuanLyThuChi\obj\Debug\Qua
 C:\Users\Chua co that khong\source\repos\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe
 C:\Users\Chua co that khong\source\repos\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.pdb
 C:\Users\Chua co that khong\source\repos\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.close_But.resources
+D:\Project\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe.config
+D:\Project\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe
+D:\Project\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.pdb
+D:\Project\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csproj.AssemblyReference.cache
+D:\Project\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.DangKiForm.resources
+D:\Project\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.Form1.resources
+D:\Project\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.Properties.Resources.resources
+D:\Project\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csproj.GenerateResource.cache
+D:\Project\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csproj.CoreCompileInputs.cache
+D:\Project\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe
+D:\Project\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.pdb

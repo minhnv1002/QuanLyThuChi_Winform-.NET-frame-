@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLyThuChi
 {
-    public partial class close_But : Form
+    public partial class Form1 : Form
     {
-        public close_But()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -32,6 +32,12 @@ namespace QuanLyThuChi
             Application.Exit();
         }
 
-        
+        private void button_DangKi_Click(object sender, EventArgs e)
+        {
+            DangKiForm dangKiForm = new DangKiForm();
+            dangKiForm.Show();
+
+            this.Hide();
+        }
     }
 }

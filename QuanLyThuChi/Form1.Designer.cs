@@ -1,6 +1,6 @@
 ﻿namespace QuanLyThuChi
 {
-    partial class close_But
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(close_But));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button_DangKi = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -40,7 +41,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button_DangNhap = new System.Windows.Forms.Button();
-            this.button_DangKi = new System.Windows.Forms.Button();
             this.checkBox_showPass = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -58,6 +58,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(376, 450);
             this.panel1.TabIndex = 0;
+            // 
+            // button_DangKi
+            // 
+            this.button_DangKi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(51)))));
+            this.button_DangKi.FlatAppearance.BorderSize = 0;
+            this.button_DangKi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_DangKi.Font = new System.Drawing.Font("Cascadia Code", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_DangKi.ForeColor = System.Drawing.Color.White;
+            this.button_DangKi.Location = new System.Drawing.Point(145, 386);
+            this.button_DangKi.Name = "button_DangKi";
+            this.button_DangKi.Size = new System.Drawing.Size(75, 23);
+            this.button_DangKi.TabIndex = 8;
+            this.button_DangKi.Text = "Đăng Kí";
+            this.button_DangKi.UseVisualStyleBackColor = false;
+            this.button_DangKi.Click += new System.EventHandler(this.button_DangKi_Click);
             // 
             // label5
             // 
@@ -142,6 +157,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(481, 269);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(152, 20);
             this.textBox2.TabIndex = 6;
             // 
@@ -159,20 +175,6 @@
             this.button_DangNhap.Text = "Đăng nhập";
             this.button_DangNhap.UseVisualStyleBackColor = false;
             // 
-            // button_DangKi
-            // 
-            this.button_DangKi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(51)))));
-            this.button_DangKi.FlatAppearance.BorderSize = 0;
-            this.button_DangKi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_DangKi.Font = new System.Drawing.Font("Cascadia Code", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_DangKi.ForeColor = System.Drawing.Color.White;
-            this.button_DangKi.Location = new System.Drawing.Point(145, 386);
-            this.button_DangKi.Name = "button_DangKi";
-            this.button_DangKi.Size = new System.Drawing.Size(75, 23);
-            this.button_DangKi.TabIndex = 8;
-            this.button_DangKi.Text = "Đăng Kí";
-            this.button_DangKi.UseVisualStyleBackColor = false;
-            // 
             // checkBox_showPass
             // 
             this.checkBox_showPass.AutoSize = true;
@@ -183,7 +185,7 @@
             this.checkBox_showPass.Text = "Hiện mật khẩu";
             this.checkBox_showPass.UseVisualStyleBackColor = true;
             // 
-            // close_But
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -198,7 +200,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "close_But";
+            this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Chua co that khong\\source\\repos\\QuanLyThuChi\\",
+  "WorkspaceRootPath": "D:\\Project\\QuanLyThuChi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|c:\\users\\chua co that khong\\source\\repos\\quanlythuchi\\quanlythuchi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|D:\\Project\\QuanLyThuChi\\quanlythuchi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|solutionrelative:quanlythuchi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|d:\\project\\quanlythuchi\\quanlythuchi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|solutionrelative:quanlythuchi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|C:\\Users\\Chua co that khong\\source\\repos\\QuanLyThuChi\\quanlythuchi\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|D:\\Project\\QuanLyThuChi\\quanlythuchi\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|solutionrelative:quanlythuchi\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|C:\\Users\\Chua co that khong\\source\\repos\\QuanLyThuChi\\quanlythuchi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|solutionrelative:quanlythuchi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|d:\\project\\quanlythuchi\\quanlythuchi\\dangkiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|solutionrelative:quanlythuchi\\dangkiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|d:\\project\\quanlythuchi\\quanlythuchi\\dangkiform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|solutionrelative:quanlythuchi\\dangkiform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|d:\\project\\quanlythuchi\\quanlythuchi\\dangkiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{861BBCFD-FEB8-4FA6-A830-59BCF1CB6102}|QuanLyThuChi\\QuanLyThuChi.csproj|solutionrelative:quanlythuchi\\dangkiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,41 +34,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "DangKiForm.Designer.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\DangKiForm.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyThuChi\\DangKiForm.Designer.cs",
+              "ToolTip": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\DangKiForm.Designer.cs",
+              "RelativeToolTip": "QuanLyThuChi\\DangKiForm.Designer.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:29:45.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DangKiForm.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\DangKiForm.cs",
+              "RelativeDocumentMoniker": "QuanLyThuChi\\DangKiForm.cs",
+              "ToolTip": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\DangKiForm.cs",
+              "RelativeToolTip": "QuanLyThuChi\\DangKiForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:25:47.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DangKiForm.cs [Design]",
+              "DocumentMoniker": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\DangKiForm.cs",
+              "RelativeDocumentMoniker": "QuanLyThuChi\\DangKiForm.cs",
+              "ToolTip": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\DangKiForm.cs [Design]",
+              "RelativeToolTip": "QuanLyThuChi\\DangKiForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:21:46.27Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Chua co that khong\\source\\repos\\QuanLyThuChi\\QuanLyThuChi\\Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyThuChi\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Chua co that khong\\source\\repos\\QuanLyThuChi\\QuanLyThuChi\\Form1.Designer.cs",
+              "ToolTip": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\Form1.Designer.cs",
               "RelativeToolTip": "QuanLyThuChi\\Form1.Designer.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAwwKAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T15:39:31.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Chua co that khong\\source\\repos\\QuanLyThuChi\\QuanLyThuChi\\Form1.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\Form1.cs",
               "RelativeDocumentMoniker": "QuanLyThuChi\\Form1.cs",
-              "ToolTip": "C:\\Users\\Chua co that khong\\source\\repos\\QuanLyThuChi\\QuanLyThuChi\\Form1.cs",
+              "ToolTip": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\Form1.cs",
               "RelativeToolTip": "QuanLyThuChi\\Form1.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA5wCIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T15:15:27.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Chua co that khong\\source\\repos\\QuanLyThuChi\\QuanLyThuChi\\Form1.cs",
+              "DocumentMoniker": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\Form1.cs",
               "RelativeDocumentMoniker": "QuanLyThuChi\\Form1.cs",
-              "ToolTip": "C:\\Users\\Chua co that khong\\source\\repos\\QuanLyThuChi\\QuanLyThuChi\\Form1.cs [Design]",
+              "ToolTip": "D:\\Project\\QuanLyThuChi\\QuanLyThuChi\\Form1.cs [Design]",
               "RelativeToolTip": "QuanLyThuChi\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T15:03:38.016Z",

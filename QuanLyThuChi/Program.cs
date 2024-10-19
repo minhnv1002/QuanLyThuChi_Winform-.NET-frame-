@@ -16,7 +16,7 @@ namespace QuanLyThuChi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new close_But());
+            Application.Run(new Form1());
         }
     }
 }
