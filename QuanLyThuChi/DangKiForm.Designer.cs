@@ -31,18 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DangKiForm));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button_DangNhap2 = new System.Windows.Forms.Button();
+            this.registerDangNhap2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.checkBox_showPass2 = new System.Windows.Forms.CheckBox();
+            this.registerShowPass = new System.Windows.Forms.CheckBox();
             this.button_DangKi2 = new System.Windows.Forms.Button();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.registerPass = new System.Windows.Forms.TextBox();
+            this.register_username = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.registercPass = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -61,7 +61,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(51)))));
-            this.panel1.Controls.Add(this.button_DangNhap2);
+            this.panel1.Controls.Add(this.registerDangNhap2);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -71,20 +71,20 @@
             this.panel1.Size = new System.Drawing.Size(376, 450);
             this.panel1.TabIndex = 9;
             // 
-            // button_DangNhap2
+            // registerDangNhap2
             // 
-            this.button_DangNhap2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(51)))));
-            this.button_DangNhap2.FlatAppearance.BorderSize = 0;
-            this.button_DangNhap2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_DangNhap2.Font = new System.Drawing.Font("Cascadia Code", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_DangNhap2.ForeColor = System.Drawing.Color.White;
-            this.button_DangNhap2.Location = new System.Drawing.Point(145, 376);
-            this.button_DangNhap2.Name = "button_DangNhap2";
-            this.button_DangNhap2.Size = new System.Drawing.Size(75, 23);
-            this.button_DangNhap2.TabIndex = 8;
-            this.button_DangNhap2.Text = "Đăng Nhập";
-            this.button_DangNhap2.UseVisualStyleBackColor = false;
-            this.button_DangNhap2.Click += new System.EventHandler(this.button_DangNhap2_Click);
+            this.registerDangNhap2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(51)))));
+            this.registerDangNhap2.FlatAppearance.BorderSize = 0;
+            this.registerDangNhap2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.registerDangNhap2.Font = new System.Drawing.Font("Cascadia Code", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registerDangNhap2.ForeColor = System.Drawing.Color.White;
+            this.registerDangNhap2.Location = new System.Drawing.Point(145, 376);
+            this.registerDangNhap2.Name = "registerDangNhap2";
+            this.registerDangNhap2.Size = new System.Drawing.Size(75, 23);
+            this.registerDangNhap2.TabIndex = 8;
+            this.registerDangNhap2.Text = "Đăng Nhập";
+            this.registerDangNhap2.UseVisualStyleBackColor = false;
+            this.registerDangNhap2.Click += new System.EventHandler(this.button_DangNhap2_Click);
             // 
             // label5
             // 
@@ -117,16 +117,16 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // checkBox_showPass2
+            // registerShowPass
             // 
-            this.checkBox_showPass2.AutoSize = true;
-            this.checkBox_showPass2.Location = new System.Drawing.Point(652, 333);
-            this.checkBox_showPass2.Name = "checkBox_showPass2";
-            this.checkBox_showPass2.Size = new System.Drawing.Size(95, 17);
-            this.checkBox_showPass2.TabIndex = 17;
-            this.checkBox_showPass2.Text = "Hiện mật khẩu";
-            this.checkBox_showPass2.UseVisualStyleBackColor = true;
-            this.checkBox_showPass2.CheckedChanged += new System.EventHandler(this.checkBox_showPass2_CheckedChanged);
+            this.registerShowPass.AutoSize = true;
+            this.registerShowPass.Location = new System.Drawing.Point(652, 333);
+            this.registerShowPass.Name = "registerShowPass";
+            this.registerShowPass.Size = new System.Drawing.Size(95, 17);
+            this.registerShowPass.TabIndex = 17;
+            this.registerShowPass.Text = "Hiện mật khẩu";
+            this.registerShowPass.UseVisualStyleBackColor = true;
+            this.registerShowPass.CheckedChanged += new System.EventHandler(this.checkBox_showPass2_CheckedChanged);
             // 
             // button_DangKi2
             // 
@@ -141,21 +141,22 @@
             this.button_DangKi2.TabIndex = 16;
             this.button_DangKi2.Text = "Đăng Kí";
             this.button_DangKi2.UseVisualStyleBackColor = false;
+            this.button_DangKi2.Click += new System.EventHandler(this.button_DangKi2_Click);
             // 
-            // textBox22
+            // registerPass
             // 
-            this.textBox22.Location = new System.Drawing.Point(486, 239);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.PasswordChar = '*';
-            this.textBox22.Size = new System.Drawing.Size(152, 20);
-            this.textBox22.TabIndex = 15;
+            this.registerPass.Location = new System.Drawing.Point(486, 239);
+            this.registerPass.Name = "registerPass";
+            this.registerPass.PasswordChar = '*';
+            this.registerPass.Size = new System.Drawing.Size(152, 20);
+            this.registerPass.TabIndex = 15;
             // 
-            // textBox11
+            // register_username
             // 
-            this.textBox11.Location = new System.Drawing.Point(486, 172);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(152, 20);
-            this.textBox11.TabIndex = 14;
+            this.register_username.Location = new System.Drawing.Point(486, 172);
+            this.register_username.Name = "register_username";
+            this.register_username.Size = new System.Drawing.Size(152, 20);
+            this.register_username.TabIndex = 14;
             // 
             // label4
             // 
@@ -187,14 +188,13 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox33
+            // registercPass
             // 
-            this.textBox33.Location = new System.Drawing.Point(486, 305);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.PasswordChar = '*';
-            this.textBox33.Size = new System.Drawing.Size(152, 20);
-            this.textBox33.TabIndex = 19;
-            this.textBox33.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.registercPass.Location = new System.Drawing.Point(486, 305);
+            this.registercPass.Name = "registercPass";
+            this.registercPass.PasswordChar = '*';
+            this.registercPass.Size = new System.Drawing.Size(152, 20);
+            this.registercPass.TabIndex = 19;
             // 
             // label6
             // 
@@ -203,27 +203,27 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(100, 13);
             this.label6.TabIndex = 18;
-            this.label6.Text = "Xác nhận mật khẩu";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.label6.Text = "Xác nhận mật khẩu";           
             // 
             // DangKiForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox33);
+            this.Controls.Add(this.registercPass);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.checkBox_showPass2);
+            this.Controls.Add(this.registerShowPass);
             this.Controls.Add(this.button_DangKi2);
-            this.Controls.Add(this.textBox22);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.registerPass);
+            this.Controls.Add(this.register_username);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DangKiForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DangKiForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -237,18 +237,18 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button_DangNhap2;
+        private System.Windows.Forms.Button registerDangNhap2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.CheckBox checkBox_showPass2;
+        private System.Windows.Forms.CheckBox registerShowPass;
         private System.Windows.Forms.Button button_DangKi2;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox registerPass;
+        private System.Windows.Forms.TextBox register_username;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.TextBox registercPass;
         private System.Windows.Forms.Label label6;
     }
 }
